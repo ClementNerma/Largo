@@ -1,0 +1,19 @@
+
+# Define a module which takes two arguments : `name` (string) and `age` (number)
+# : string Indicates that module returns a string
+module helloWorld string name, number age : string
+  # Display the "Hello World" message
+  display "Hello ${name}, you are ${age} years old"
+  # Return a simple text
+  return "I'm happy to see you !"
+
+# Input some values to user and store it in variables
+string first_name = prompt("Your first name ? ")
+string last_name  = prompt("Your last  name ? ")
+number age        = toNumber(prompt("Your age ? "))
+
+# Call `helloWorld` module and as arguments the first name, a space and then last name ; and the user age
+# Then, display the result ("You welcome")
+display helloWorld("${first_name} ${last_name}", age)
+# Display an empty line
+displayln()

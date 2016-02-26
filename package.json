@@ -1,0 +1,30 @@
+{
+  "name": "Largo",
+  "version": "0.1.0",
+  "description": "Complex programming language",
+  "main": "largo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "largo": "bin.js"
+  },
+  "keywords": [
+    "programming",
+    "simple",
+    "flexible",
+    "largo"
+  ],
+  "files": [
+    "bin.js",
+    "largo.js",
+    "examples",
+    "doc"
+  ],
+  "dependencies": {
+    "readline-sync": ">=1.3.0",
+    "jsonpack": ">=1.1.4"
+  },
+  "author": "Clément Nerma",
+  "license": "CC-BY-NC-ND-4.0"
+}
